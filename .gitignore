@@ -1,0 +1,18 @@
+
+# Virtual environment
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+
+# Dataset files (do not upload)
+data/
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
