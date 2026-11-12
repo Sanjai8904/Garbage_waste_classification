@@ -32,11 +32,11 @@ for category in categories:
 
     image_counts[category] = len(images)
 
-# print("\nImage Count:")
-# for category, count in image_counts.items():
-#     print(f"{category}: {count}")
+print("\nImage Count:")
+for category, count in image_counts.items():
+    print(f"{category}: {count}")
 
-# print("\nTotal Images:", sum(image_counts.values()))
+print("\nTotal Images:", sum(image_counts.values()))
 
 
 # 4. Create a DataFrame

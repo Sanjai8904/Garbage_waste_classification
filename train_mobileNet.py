@@ -11,6 +11,7 @@ from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from sklearn.metrics import classification_report
 
+
 DATASET_PATH = Path("data/dataset-resized")
 
 IMAGE_SIZE = (128, 128)

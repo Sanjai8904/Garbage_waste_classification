@@ -16,3 +16,12 @@ data/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Ablation study - keep locally
+ablation_study.py
+models/C0_*.keras
+models/C1_*.keras
+models/C2_*.keras
+models/C3_*.keras
+models/C4_*.keras
+reports/ablation_study_results.*
